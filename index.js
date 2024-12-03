@@ -6,7 +6,7 @@ var server = http.createServer();
 //servicio web
 function mensaje(request, response ){
     response.writeHead(200, {'content-type':'text/plain'});
-    response.write('Hola mundo');
+    response.write('Hola mundo Paul');
     response.end();
 }
 
